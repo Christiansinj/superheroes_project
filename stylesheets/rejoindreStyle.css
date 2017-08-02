@@ -1,0 +1,43 @@
+/*
+Error: Invalid CSS after ".container": expected "{", was ""
+        on line 20 of /home/sinvry/Simplon.co/front-js/superheroes_project/sass/rejoindreStyle.scss
+
+15: $black: #000000;
+16: 
+17: $red: #ff0000;
+18: $dark-red: #d60000;
+19: 
+20: .container
+
+Backtrace:
+/home/sinvry/Simplon.co/front-js/superheroes_project/sass/rejoindreStyle.scss:20
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/var/lib/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/var/lib/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/var/lib/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/var/lib/gems/2.3.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \".container\": expected \"{\", was \"\"\A         on line 20 of /home/sinvry/Simplon.co/front-js/superheroes_project/sass/rejoindreStyle.scss\A \A 15: $black: #000000;\A 16: \A 17: $red: #ff0000;\A 18: $dark-red: #d60000;\A 19: \A 20: .container"; }

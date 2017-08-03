@@ -8788,46 +8788,83 @@ button.close {
     display: none !important;
   }
 }
-/* line 30, ../sass/rejoindreStyle.scss */
+/* line 22, ../sass/rejoindreStyle.scss */
+body {
+  font-family: Saira;
+  font-weight: lighter;
+}
+
+/* line 28, ../sass/rejoindreStyle.scss */
 .container {
   box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 33, ../sass/rejoindreStyle.scss */
+/* line 31, ../sass/rejoindreStyle.scss */
 .devenir > div {
   height: 100vh;
-  text-align: center;
   font-size: 20px;
   color: #000000;
   margin-top: 30px;
 }
-/* line 37, ../sass/rejoindreStyle.scss */
+/* line 35, ../sass/rejoindreStyle.scss */
 .devenir > div p {
   margin-top: 150px;
 }
-/* line 41, ../sass/rejoindreStyle.scss */
-.devenir > div iframe {
+
+/* line 39, ../sass/rejoindreStyle.scss */
+iframe {
   margin-top: 150px;
 }
 
-/* line 45, ../sass/rejoindreStyle.scss */
+/* line 42, ../sass/rejoindreStyle.scss */
 img {
   margin: auto;
 }
 
-/* line 50, ../sass/rejoindreStyle.scss */
+/* line 46, ../sass/rejoindreStyle.scss */
 h1 {
   font-size: 30px;
 }
 
-/* line 54, ../sass/rejoindreStyle.scss */
-.btn {
-  padding: 30px;
-  margin: auto;
+/* line 49, ../sass/rejoindreStyle.scss */
+.btn1 {
+  image: url("");
+  background-repeat: no-repeat;
+  height: 80vh;
 }
 
-/* line 59, ../sass/rejoindreStyle.scss */
+/* line 54, ../sass/rejoindreStyle.scss */
 .fury {
-  width: 100vh;
   height: 100vh;
+}
+
+/* line 57, ../sass/rejoindreStyle.scss */
+.ironpa {
+  width: 80vh;
+  height: 80vh;
+}
+
+/* line 61, ../sass/rejoindreStyle.scss */
+.btn {
+  width: 17%;
+  margin: auto;
+  margin-top: 20px;
+}
+/* line 66, ../sass/rejoindreStyle.scss */
+.btn:hover {
+  width: 30%;
+  transition: 0.6s;
+  word-spacing: 30px;
+}
+
+/* line 73, ../sass/rejoindreStyle.scss */
+.shield {
+  width: 310px;
+  height: 300px;
+}
+
+/* line 78, ../sass/rejoindreStyle.scss */
+hr {
+  border: 1px solid #cc0000;
+  width: 70%;
 }

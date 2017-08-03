@@ -1,15 +1,10 @@
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
-
 // Import custom Bootstrap variables
 @import "bootstrap-variables";
-
 // Import Bootstrap for Sass
 @import "bootstrap";
-
 @import "navbar";
-
-
 //var
 $blue: #59a5d8;
 $light-blue: lighten($blue, 5%);
@@ -18,45 +13,70 @@ $white: #FFFFFF;
 $black: #000000;
 $red: #ff0000;
 $dark-red: darken($red, 10%);
-
 //mixin
 @mixin devn(){
-	font-size: 20px;
-	color: $black;
-	margin-top: 30px;
+font-size: 20px;
+color: $black;
+margin-top: 30px;
 }
-	
+body {
+font-family: Saira;
+font-weight: lighter;
+}
+
 //css
 .container{
-	box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .devenir > div {
-	height: 100vh;
-	text-align: center;
-	@include devn;
-	p{
-		margin-top: 150px;
+height: 100vh;
 
-	}
-	iframe{
-		margin-top: 150px;
-	}
+@include devn;
+p{
+margin-top: 150px;
 }
-	img {
-		margin:auto;
-		
-	}
+}
+iframe{
+margin-top: 150px;
+}
+img {
+margin:auto;
 
+}
 h1{
-	font-size: 30px;
+font-size: 30px;
 }
-
-.btn {
-padding: 30px;
-margin: auto;	
+.btn1 {
+image: url("");
+background-repeat: no-repeat;
+height: 80vh;
 }
-
 .fury{
-	width: 100vh;
-	height: 100vh;
+height: 100vh;
+}
+.ironpa{
+width: 80vh;
+height: 80vh;
+}
+.btn{
+width: 17%;
+margin:auto;
+margin-top: 20px;
+
+&:hover {
+width: 30%;
+transition: 0.6s;	
+word-spacing: 30px;
+}
+}
+
+.shield{
+width: 310px;
+height:300px;
+}
+
+hr {
+	border: 1px solid $dark-red;
+	width: 70%;
+	
 }

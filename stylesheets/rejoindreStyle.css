@@ -8788,88 +8788,92 @@ button.close {
     display: none !important;
   }
 }
-/* line 22, ../sass/rejoindreStyle.scss */
-body {
-  font-family: Saira;
-  font-weight: lighter;
+/* line 29, ../sass/rejoindreStyle.scss */
+#rejoindre p {
+  color: #2b80b9;
+  font-family: 'Josefin Sans';
 }
-
-/* line 28, ../sass/rejoindreStyle.scss */
-.container {
+/* line 35, ../sass/rejoindreStyle.scss */
+#rejoindre hr {
+  border: 1px solid #ff4d4d;
+  width: 70%;
+}
+/* line 41, ../sass/rejoindreStyle.scss */
+#rejoindre h3 {
+  color: #ff4d4d;
+  margin-top: 20vh;
+  text-align: center;
+  font-family: 'Josefin Sans';
+}
+/* line 48, ../sass/rejoindreStyle.scss */
+#rejoindre table {
+  margin-bottom: 10px;
+}
+/* line 53, ../sass/rejoindreStyle.scss */
+#rejoindre h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #cc0000;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+/* line 64, ../sass/rejoindreStyle.scss */
+#rejoindre span {
+  color: #cc0000;
+}
+/* line 69, ../sass/rejoindreStyle.scss */
+#rejoindre .container {
   box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
 }
-
-/* line 31, ../sass/rejoindreStyle.scss */
-.devenir > div {
-  height: 100vh;
+/* line 74, ../sass/rejoindreStyle.scss */
+#rejoindre .devenir > div {
   font-size: 20px;
   color: #000000;
   margin-top: 30px;
 }
-/* line 35, ../sass/rejoindreStyle.scss */
-.devenir > div p {
-  margin-top: 150px;
-}
-
-/* line 39, ../sass/rejoindreStyle.scss */
-iframe {
-  margin-top: 150px;
-}
-
-/* line 42, ../sass/rejoindreStyle.scss */
-img {
-  margin: auto;
-}
-
-/* line 46, ../sass/rejoindreStyle.scss */
-h1 {
-  font-size: 30px;
-}
-
-/* line 49, ../sass/rejoindreStyle.scss */
-.btn1 {
-  image: url("");
-  background-repeat: no-repeat;
-  height: 80vh;
-}
-
-/* line 54, ../sass/rejoindreStyle.scss */
-.fury {
-  height: 100vh;
-}
-
-/* line 57, ../sass/rejoindreStyle.scss */
-.ironpa {
-  width: 80vh;
-  height: 80vh;
-}
-
-/* line 61, ../sass/rejoindreStyle.scss */
-.btn {
-  width: 17%;
-  margin: auto;
-  margin-top: 20px;
-}
-/* line 66, ../sass/rejoindreStyle.scss */
-.btn:hover {
-  width: 30%;
-  transition: 0.6s;
-  word-spacing: 30px;
-}
-
-/* line 73, ../sass/rejoindreStyle.scss */
-.shield {
-  width: 310px;
-  height: 300px;
-}
-
 /* line 78, ../sass/rejoindreStyle.scss */
-hr {
-  border: 1px solid #cc0000;
-  width: 70%;
+#rejoindre .devenir > div p {
+  margin-top: 150px;
 }
-
-/* line 84, ../sass/rejoindreStyle.scss */
-h3 {
-  color: #337AB7;
+/* line 85, ../sass/rejoindreStyle.scss */
+#rejoindre iframe {
+  margin-top: 150px;
+}
+/* line 90, ../sass/rejoindreStyle.scss */
+#rejoindre img {
+  margin: auto;
+}
+/* line 96, ../sass/rejoindreStyle.scss */
+#rejoindre .fury {
+  height: 80vh;
+}
+/* line 101, ../sass/rejoindreStyle.scss */
+#rejoindre .ironpa {
+  width: 60vh;
+  height: 60vh;
+}
+/* line 107, ../sass/rejoindreStyle.scss */
+#rejoindre .shield {
+  width: 250px;
+  height: 240px;
+}
+/* line 112, ../sass/rejoindreStyle.scss */
+#rejoindre a {
+  background-color: #2b80b9;
+  display: block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 120, ../sass/rejoindreStyle.scss */
+#rejoindre .join-btn {
+  width: 50%;
+  margin: 20px auto;
+  transition: width 0.5s;
+}
+/* line 124, ../sass/rejoindreStyle.scss */
+#rejoindre .join-btn:hover {
+  width: 70%;
 }

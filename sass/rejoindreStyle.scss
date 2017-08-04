@@ -13,6 +13,7 @@ $white: #FFFFFF;
 $black: #000000;
 $red: #ff0000;
 $dark-red: darken($red, 10%);
+$ligth-red: lighten($red, 15%);
 //mixin
 @mixin devn(){
 font-size: 20px;
@@ -20,67 +21,108 @@ color: $black;
 margin-top: 30px;
 }
 body {
-font-family: Saira;
-font-weight: lighter;
+
 }
 
 //css
-.container{
-box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
-}
-.devenir > div {
-height: 100vh;
+#rejoindre{
+	p {
+		color: $dark-blue;
+		font-family: 'Josefin Sans';
 
-@include devn;
-p{
-margin-top: 150px;
-}
-}
-iframe{
-margin-top: 150px;
-}
-img {
-margin:auto;
+	}
 
-}
-h1{
-font-size: 30px;
-}
-.btn1 {
-image: url("");
-background-repeat: no-repeat;
-height: 80vh;
-}
-.fury{
-height: 100vh;
-}
-.ironpa{
-width: 80vh;
-height: 80vh;
-}
-.btn{
-width: 17%;
-margin:auto;
-margin-top: 20px;
+	hr {		
+		border: 1px solid $ligth-red;
+		width: 70%;
 
-&:hover {
-width: 30%;
-transition: 0.6s;	
-word-spacing: 30px;
-}
-}
+	}
 
-.shield{
-width: 310px;
-height:300px;
-}
+	h3 {
+		color: $ligth-red;
+		margin-top: 20vh;
+		text-align: center;
+		font-family: 'Josefin Sans';
+	}
 
-hr {
-	border: 1px solid $dark-red;
-	width: 70%;
+	table {
+		margin-bottom: 10px;
 
-}
+	}
 
-h3 {
-	color: #337AB7
+	h1     {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: $dark-red;
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	padding-bottom: 20px;
+
+	}
+
+	span   {
+	color: $dark-red;
+	}
+
+
+	.container	{
+	box-shadow: 0px 20px 5px 5px rgba(0, 0, 0, 0.2);
+
+	}
+
+	.devenir > div {
+
+	@include devn;
+
+	p {
+	margin-top: 150px;
+
+	}
+
+	}
+
+	iframe {
+	margin-top: 150px;
+
+	}
+
+	img {
+	margin:auto;
+	
+	}
+
+
+	.fury {
+	height: 80vh;
+
+	}
+
+	.ironpa {
+	width: 60vh;
+	height: 60vh;
+
+	}
+
+	.shield {
+	width: 250px;
+	height:240px;
+
+	}
+	a{
+		background-color: $dark-blue;
+		display: block;
+		width: 150px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.join-btn{
+		width: 50%;
+		margin: 20px auto ;
+		transition:width 0.5s;
+		&:hover {
+			width: 70%;
+		}
+	}
 }

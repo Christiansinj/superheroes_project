@@ -8877,3 +8877,9 @@ button.close {
 #rejoindre .join-btn:hover {
   width: 70%;
 }
+@media (min-width: 768px) {
+  /* line 129, ../sass/rejoindreStyle.scss */
+  #rejoindre .table {
+    display: none;
+  }
+}

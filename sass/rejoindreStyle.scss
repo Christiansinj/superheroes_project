@@ -20,12 +20,9 @@ font-size: 20px;
 color: $black;
 margin-top: 30px;
 }
-body {
-
-}
 
 //css
-#rejoindre{
+#rejoindre-content{
 	p {
 		color: $dark-blue;
 		font-family: 'Josefin Sans';
@@ -72,14 +69,11 @@ body {
 	}
 
 	.devenir > div {
+		@include devn;
 
-	@include devn;
-
-	p {
-	margin-top: 150px;
-
-	}
-
+		p {
+			margin-top: 150px;
+		}
 	}
 
 	iframe {
@@ -89,7 +83,6 @@ body {
 
 	img {
 	margin:auto;
-	
 	}
 
 
@@ -109,7 +102,8 @@ body {
 	height:240px;
 
 	}
-	a{
+	
+	a {
 		background-color: $dark-blue;
 		display: block;
 		width: 150px;
@@ -117,16 +111,20 @@ body {
 		text-decoration: none;
 	}
 
-	.join-btn{
+	.join-btn {
 		width: 50%;
 		margin: 20px auto ;
 		transition:width 0.5s;
 		&:hover {
-			width: 70%;
+			width: 80%;
 		}
 	}
-	@media (min-width: 768px){
-		.table{
+
+	@media (max-width: 768px){
+		.table {
+			display: none;
+		}
+		.candidater{
 			display: none;
 		}
 	}
